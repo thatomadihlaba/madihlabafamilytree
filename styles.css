@@ -278,7 +278,25 @@ header p {
 /* Separator between generations */
 .generation-separator {
   position: relative;
-  height: 50px;
+  height: 80px;
+}
+
+/* Highlighting */
+.member-card.dimmed {
+  opacity: 0.3;
+  transform: scale(0.97);
+}
+
+.member-card.highlighted {
+  opacity: 1;
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(91, 106, 191, 0.4);
+  outline: 3px solid #5b6abf;
+  outline-offset: 2px;
+}
+
+.member-card {
+  transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* ===========================
@@ -393,7 +411,7 @@ header p {
   }
 
   .generation-separator {
-    height: 30px;
+    height: 60px;
   }
 }
 
