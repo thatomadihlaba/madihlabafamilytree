@@ -74,7 +74,7 @@ const FAMILY_DATA = {
       "role": "Child",
       "generation": 2,
       "image": "",
-      "side": "maternal",
+      "side": "paternal",
       "parents": ["ranko", "manko"]
     },
     {
@@ -83,7 +83,7 @@ const FAMILY_DATA = {
       "role": "Child",
       "generation": 2,
       "image": "",
-      "side": "maternal",
+      "side": "paternal",
       "parents": ["ranko", "manko"]
     },
     {
@@ -92,7 +92,7 @@ const FAMILY_DATA = {
       "role": "Child",
       "generation": 2,
       "image": "",
-      "side": "maternal",
+      "side": "paternal",
       "parents": ["ranko", "manko"]
     },
     {
@@ -241,7 +241,7 @@ const FAMILY_DATA = {
     },
     {
       "id": "rate",
-      "name": "Rate",
+      "name": "Rati",
       "role": "Grandchild",
       "generation": 4,
       "image": "",
@@ -292,6 +292,51 @@ const FAMILY_DATA = {
       "image": "",
       "side": "paternal",
       "parents": ["stutu"]
+    },
+    {
+      "id": "kamo",
+      "name": "Kamo",
+      "role": "Grandchild",
+      "generation": 4,
+      "image": "",
+      "side": "paternal",
+      "parents": ["lebo"]
+    },
+    {
+      "id": "joy_lebo",
+      "name": "Joy",
+      "role": "Grandchild",
+      "generation": 4,
+      "image": "",
+      "side": "paternal",
+      "parents": ["lebo"]
+    },
+    {
+      "id": "bohlokwa",
+      "name": "Bohlokwa",
+      "role": "Grandchild",
+      "generation": 4,
+      "image": "",
+      "side": "paternal",
+      "parents": ["kgantsho"]
+    },
+    {
+      "id": "lethabo",
+      "name": "Lethabo",
+      "role": "Grandchild",
+      "generation": 4,
+      "image": "",
+      "side": "paternal",
+      "parents": ["kgantsho"]
+    },
+    {
+      "id": "nthabiseng",
+      "name": "Nthabiseng",
+      "role": "Child",
+      "generation": 3,
+      "image": "",
+      "side": "paternal",
+      "parents": ["shim"]
     }
   ]
 };
