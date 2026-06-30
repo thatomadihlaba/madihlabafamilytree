@@ -223,6 +223,11 @@ header p {
   border: 2px solid #66bb6a;
 }
 
+.member-card.gen-5 {
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+  border: 2px solid #ec407a;
+}
+
 /* Avatar */
 .member-avatar {
   width: 44px;

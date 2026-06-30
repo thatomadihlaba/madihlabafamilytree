@@ -18,7 +18,7 @@ const FAMILY_DATA = {
   "members": [
     {
       "id": "ranko",
-      "name": "Ranko Madihlaba",
+      "name": "Joseph Lephatse Madihlaba(Ranko)",
       "role": "Grandfather",
       "generation": 1,
       "image": "",
@@ -26,7 +26,7 @@ const FAMILY_DATA = {
     },
     {
       "id": "manko",
-      "name": "Manko Madihlaba",
+      "name": "Ledia Tefu Madihlaba(Manko)",
       "role": "Grandmother",
       "generation": 1,
       "image": "",
@@ -39,7 +39,10 @@ const FAMILY_DATA = {
       "generation": 2,
       "image": "",
       "side": "paternal",
-      "parents": ["ranko", "manko"]
+      "parents": [
+        "ranko",
+        "manko"
+      ]
     },
     {
       "id": "sanki",
@@ -48,7 +51,10 @@ const FAMILY_DATA = {
       "generation": 2,
       "image": "",
       "side": "paternal",
-      "parents": ["ranko", "manko"]
+      "parents": [
+        "ranko",
+        "manko"
+      ]
     },
     {
       "id": "mboni",
@@ -57,7 +63,10 @@ const FAMILY_DATA = {
       "generation": 2,
       "image": "",
       "side": "paternal",
-      "parents": ["ranko", "manko"]
+      "parents": [
+        "ranko",
+        "manko"
+      ]
     },
     {
       "id": "ntutu",
@@ -66,7 +75,10 @@ const FAMILY_DATA = {
       "generation": 2,
       "image": "",
       "side": "paternal",
-      "parents": ["ranko", "manko"]
+      "parents": [
+        "ranko",
+        "manko"
+      ]
     },
     {
       "id": "mabatho",
@@ -75,7 +87,10 @@ const FAMILY_DATA = {
       "generation": 2,
       "image": "",
       "side": "paternal",
-      "parents": ["ranko", "manko"]
+      "parents": [
+        "ranko",
+        "manko"
+      ]
     },
     {
       "id": "maki",
@@ -84,7 +99,10 @@ const FAMILY_DATA = {
       "generation": 2,
       "image": "",
       "side": "paternal",
-      "parents": ["ranko", "manko"]
+      "parents": [
+        "ranko",
+        "manko"
+      ]
     },
     {
       "id": "mahlodi",
@@ -93,250 +111,340 @@ const FAMILY_DATA = {
       "generation": 2,
       "image": "",
       "side": "paternal",
-      "parents": ["ranko", "manko"]
+      "parents": [
+        "ranko",
+        "manko"
+      ]
     },
     {
       "id": "linda",
       "name": "Linda",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "maternal",
-      "parents": ["mabatho"]
+      "parents": [
+        "mabatho"
+      ]
     },
     {
       "id": "kutlwano",
       "name": "Kutlwano",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "maternal",
-      "parents": ["mabatho"]
+      "parents": [
+        "mabatho"
+      ]
     },
     {
       "id": "thato",
       "name": "Thato",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "maternal",
-      "parents": ["mabatho"]
+      "parents": [
+        "mabatho"
+      ]
     },
     {
       "id": "kgantsho",
       "name": "Kgantsho",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "maternal",
-      "parents": ["mahlodi"]
+      "parents": [
+        "mahlodi"
+      ]
     },
     {
       "id": "pasi",
       "name": "Pasi",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "maternal",
-      "parents": ["maki"]
+      "parents": [
+        "maki"
+      ]
     },
     {
       "id": "joy",
       "name": "Joy",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "maternal",
-      "parents": ["maki"]
+      "parents": [
+        "maki"
+      ]
     },
     {
       "id": "pinkie",
       "name": "Pinkie",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["ntutu"]
+      "parents": [
+        "ntutu"
+      ]
     },
     {
       "id": "lokisang",
       "name": "Lokisang",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["ntutu"]
+      "parents": [
+        "ntutu"
+      ]
     },
     {
       "id": "sechaba",
       "name": "Sechaba",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["sanki"]
+      "parents": [
+        "sanki"
+      ]
     },
     {
       "id": "martha",
       "name": "Martha",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["sanki"]
+      "parents": [
+        "sanki"
+      ]
     },
     {
       "id": "lerato",
       "name": "Lerato",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["shim"]
+      "parents": [
+        "shim"
+      ]
     },
     {
       "id": "stutu",
       "name": "Stutu",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["mboni"]
+      "parents": [
+        "mboni"
+      ]
     },
     {
       "id": "lebo",
       "name": "Lebo",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["mboni"]
+      "parents": [
+        "mboni"
+      ]
     },
     {
       "id": "motshewa",
       "name": "Motshewa",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["mboni"]
+      "parents": [
+        "mboni"
+      ]
     },
     {
       "id": "sara",
       "name": "Sara",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["mboni"]
+      "parents": [
+        "mboni"
+      ]
     },
     {
       "id": "bonolo",
       "name": "Bonolo",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["ntutu"]
+      "parents": [
+        "ntutu"
+      ]
     },
     {
       "id": "rate",
-      "name": "Rati",
-      "role": "Grandchild",
+      "name": "Oratile(Rati)",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "maternal",
-      "parents": ["pasi"]
+      "parents": [
+        "pasi"
+      ]
     },
     {
       "id": "boy",
-      "name": "Boy",
-      "role": "Grandchild",
+      "name": "Reatlegile(Boy)",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["pinkie"]
+      "parents": [
+        "pinkie"
+      ]
     },
     {
       "id": "tumi",
-      "name": "Tumi",
-      "role": "Grandchild",
+      "name": "Boitumelo(Tumi)",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["pinkie"]
+      "parents": [
+        "pinkie"
+      ]
     },
     {
       "id": "bokang",
       "name": "Bokang",
-      "role": "Grandchild",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["martha"]
+      "parents": [
+        "martha"
+      ]
     },
     {
       "id": "karabo",
       "name": "Karabo",
-      "role": "Grandchild",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["sechaba"]
+      "parents": [
+        "sechaba"
+      ]
     },
     {
       "id": "thuso",
       "name": "Thuso",
-      "role": "Grandchild",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["stutu"]
+      "parents": [
+        "stutu"
+      ]
     },
     {
       "id": "kamo",
       "name": "Kamo",
-      "role": "Grandchild",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["lebo"]
+      "parents": [
+        "lebo"
+      ]
     },
     {
       "id": "joy_lebo",
-      "name": "Joy",
-      "role": "Grandchild",
+      "name": "Kgothatso",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["lebo"]
+      "parents": [
+        "lebo"
+      ]
     },
     {
       "id": "bohlokwa",
       "name": "Bohlokwa",
-      "role": "Grandchild",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["kgantsho"]
+      "parents": [
+        "kgantsho"
+      ]
     },
     {
       "id": "lethabo",
       "name": "Lethabo",
-      "role": "Grandchild",
+      "role": "Great Grandchild",
       "generation": 4,
       "image": "",
       "side": "paternal",
-      "parents": ["kgantsho"]
+      "parents": [
+        "kgantsho"
+      ]
     },
     {
       "id": "nthabiseng",
       "name": "Nthabiseng",
-      "role": "Child",
+      "role": "Grandchild",
       "generation": 3,
       "image": "",
       "side": "paternal",
-      "parents": ["shim"]
+      "parents": [
+        "shim"
+      ]
+    },
+    {
+      "id": "joy_bokang",
+      "name": "Joy",
+      "role": "Great Great Grandchild",
+      "generation": 5,
+      "image": "",
+      "side": "paternal",
+      "parents": [
+        "bokang"
+      ]
+    },
+    {
+      "id": "tshepo",
+      "name": "Tshepo",
+      "role": "Great Grandchild",
+      "generation": 4,
+      "image": "",
+      "side": "paternal",
+      "parents": [
+        "sara"
+      ]
+    },
+    {
+      "id": "teboho",
+      "name": "Teboho (Monki)",
+      "role": "Great Grandchild",
+      "generation": 4,
+      "image": "",
+      "side": "paternal",
+      "parents": [
+        "stutu"
+      ]
     }
   ]
 };
